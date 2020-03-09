@@ -39,10 +39,12 @@ android {
     productFlavors {
         paid {
             dimension "type"
+            manifestPlaceholders = [appIcon: "@drawable/ic_launcher_paid"]
         }
 
         free {
             dimension "type"
+            manifestPlaceholders = [appIcon: "@drawable/ic_launcher_free"]
         }
     }
 }
