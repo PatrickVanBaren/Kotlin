@@ -38,11 +38,13 @@ android {
     flavorDimensions "type"
     productFlavors {
         paid {
+            applicationIdSuffix ".paidVersion"
             dimension "type"
             manifestPlaceholders = [appIcon: "@drawable/ic_launcher_paid"]
         }
 
         free {
+            applicationIdSuffix ".freeVersion"
             dimension "type"
             manifestPlaceholders = [appIcon: "@drawable/ic_launcher_free"]
         }
