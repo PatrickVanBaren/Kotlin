@@ -1,4 +1,4 @@
 package com.example.simplewargame
 
-abstract class AbstractWarrior {
+class Battle {
 }

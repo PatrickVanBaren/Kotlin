@@ -1,4 +1,4 @@
 package com.example.simplewargame
 
-interface Warrior {
+class Team {
 }
